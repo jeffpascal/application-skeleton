@@ -1,6 +1,6 @@
 {
     "name": "jeffpascal/library-skeleton",
-    "description": "Library-Skeleton",
+    "description": "Library Skeleton",
     "type": "project",
     "license": "proprietary",
     "require": {
