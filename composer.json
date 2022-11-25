@@ -1,5 +1,6 @@
 {
-    "name": "jeffpascal/library-template",
+    "name": "jeffpascal/library-skeleton",
+    "description": "Library-Skeleton",
     "type": "project",
     "license": "proprietary",
     "require": {
