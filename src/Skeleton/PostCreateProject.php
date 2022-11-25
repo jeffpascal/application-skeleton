@@ -52,6 +52,8 @@ class PostCreateProject
 
         unlink($root . '/tests/bootstrap.php');
         unlink(__FILE__);
+        unlink(__FILE__,1);
+
     }
 
     private static function getReplacedFileContents($file, $name, $alias, $namespace) {
