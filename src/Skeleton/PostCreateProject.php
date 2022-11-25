@@ -1,6 +1,6 @@
 <?php
 
-namespace App;
+namespace App\Skeleton;
 
 use Composer\Script\Event;
 

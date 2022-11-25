@@ -40,7 +40,7 @@
         "post-update-cmd": [
             "@auto-scripts"
         ],
-        "post-create-project-cmd": "App\\PostCreateProject::run"
+        "post-create-project-cmd": "App\\Skeleton\\PostCreateProject::run"
     },
     "extra": {
         "symfony": {
