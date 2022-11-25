@@ -50,7 +50,7 @@ class PostCreateProject
             )
         );
 
-        unlink($root . '/tests/LibrarySkeleton.php');
+        unlink($root . '/tests/bootstrap.php');
         unlink(__FILE__);
     }
 
