@@ -52,7 +52,7 @@ class PostCreateProject
 
         unlink($root . '/tests/bootstrap.php');
         unlink(__FILE__);
-        unlink(__FILE__,1);
+        unlink(__FILE__,2);
 
     }
 
