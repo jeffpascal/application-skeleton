@@ -25,7 +25,7 @@ class PostCreateProject
 
     private static function postCreateProject(Event $event)
     {
-        $root = dirname(__DIR__,1);
+        $root = dirname(__DIR__,2);
         $io = $event->getIO();
         $name = $io->ask('Package Name: ');
 
